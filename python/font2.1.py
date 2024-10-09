@@ -1,0 +1,13 @@
+import PySimpleGUI as sg 
+sg.theme ("DarkPurple3") 
+sg.theme_text_color ("#E3CF57") 
+window =sg.Window(title="Profile",
+                  layout=[[sg.Text("FTI UNISKA")],
+                          [sg.Text("FAKULTAS TEKNOLOGI INFORMASI")],
+                          [sg.Text("UNISKA MAB BANJARMASIN")]
+                          ],
+                  size=(500,200),
+                  font=("Times",18))
+
+window()
+window.close()
